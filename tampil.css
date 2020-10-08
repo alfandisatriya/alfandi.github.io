@@ -1,0 +1,97 @@
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color:  rgb(20, 20, 20);
+}
+h3{
+    text-align: center;
+}
+.badan-utama{
+    max-width: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 15px;
+    background-color: rgb(252, 188, 27);
+}
+
+header{
+    padding: 20px;
+}
+
+.navigasi ul
+{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(126, 53, 5);
+}
+
+.navigasi li
+{
+    float: left;
+}
+.navigasi li a{
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.navigasi li a:hover
+{
+    background-color: rgb(252, 188, 27);
+    transition-duration: 2s;
+}
+.baner
+{
+    margin-bottom: 15px;
+}
+.baner img
+{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.kotak
+{
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.menu-kiri
+{
+    width: 818px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-kiri-isi
+{
+    width: 810px;
+    margin-right: 10px;
+    float: left;
+}
+.menu-kanan
+{
+    width: 250px;
+    float: left;
+}
+
+.menu-tengah, .menu-kanan
+{
+    margin-bottom: 15px;
+}
+footer
+{
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(126, 53, 5);
+}
